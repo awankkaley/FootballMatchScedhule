@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_master">
+
+    <LinearLayout
+            android:background="@drawable/bgteam"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+    <ImageView
+            android:layout_marginTop="@dimen/margin_master"
+            android:id="@+id/image_team_list"
+            android:layout_width="80dp"
+            android:layout_gravity="center"
+            android:layout_height="80dp"/>
+        <TextView
+                android:id="@+id/name_team_list"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                tools:text="Nama Team"
+                android:maxLines="1"
+                android:layout_marginTop="@dimen/margin_master"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

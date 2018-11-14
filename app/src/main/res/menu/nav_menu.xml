@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_match"
+          app:showAsAction="always"
+          android:title="@string/match"
+          android:icon="@drawable/match"/>
+
+    <item android:id="@+id/menu_team"
+          app:showAsAction="ifRoom"
+          android:title="@string/teamses"
+          android:icon="@drawable/teams"/>
+
+    <item android:id="@+id/menu_favo"
+          app:showAsAction="ifRoom"
+          android:title="@string/favourite"
+          android:icon="@drawable/favourite"/>
+</menu>
