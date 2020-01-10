@@ -2,6 +2,7 @@ package com.kotlin.awankkaley.footballmatchscedhule.adapter
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -34,6 +35,7 @@ class PlayerAdapter(
         fun bindItem(players: Players?) {
             itemView.name_player_list.text = players?.strPlayer
             itemView.pos_player_list.text = players?.strPosition
+            Log.d("testing",players.toString())
             Glide.with(itemView.context).load(players?.strCutout).into(itemView.image_player_list)
         }
 
